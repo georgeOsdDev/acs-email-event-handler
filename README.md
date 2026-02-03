@@ -2,6 +2,8 @@
 
 This project provides an Azure Functions-based system that subscribes to Azure Communication Services (ACS) Email events via Event Grid, keeps the Managed Suppression List optimal, and includes test email sending and suppression list query/management endpoints.
 
+> **⚠️ Validation Project**: This is a validation/proof-of-concept project to demonstrate ACS Email event handling and suppression list management. It is provided as a sample for learning and testing purposes.
+
 ## Features
 - Send test emails
 - Subscribe to ACS Email events via Event Grid
@@ -49,5 +51,10 @@ Subscribe the ACS Email event `Microsoft.Communication.EmailDeliveryReportReceiv
 ## Deployment
 Infrastructure templates are in [infra/main.bicep](infra/main.bicep). Copy [infra/parameters.sample.json](infra/parameters.sample.json) to `infra/parameters.json`, fill in real values, then deploy to create the Function App, storage, and Application Insights, and deploy the function code package.
 
+See [HowToDeploy.md](HowToDeploy.md) for detailed deployment steps.
+
 ## Tests
 This project follows TDD. Run the unit tests before and after changes to confirm behavior.
+
+## Disclaimer
+This project is for validation and demonstration purposes only. Before using in production, ensure all components meet your security, reliability, and compliance requirements.
