@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WEBSITE_NODE_DEFAULT_VERSION" : "~22",
+    "ACS_CONNECTION_STRING": "<your-acs-connection-string>",
+    "ACS_EMAIL_FROM": "<verified-sender@example.com>",
+    "ACS_SUPPRESSION_LIST_LEVEL": "domain",
+    "AZURE_SUBSCRIPTION_ID": "<subscription-id>",
+    "ACS_RESOURCE_GROUP": "<acs-resource-group>",
+    "ACS_EMAIL_SERVICE_NAME": "<acs-email-service-name>",
+    "ACS_DOMAIN_RESOURCE_NAME": "<acs-domain-resource-name>",
+    "ACS_SUPPRESSION_LIST_NAME": "<acs-suppression-list-name>"
+  }
+}

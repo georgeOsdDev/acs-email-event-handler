@@ -1,0 +1,36 @@
+# Git
+.git/
+.github/
+.gitignore
+
+# Node
+# node_modules/
+coverage/
+*.log
+
+# Tests
+tests/
+*.test.ts
+*.test.js
+jest.config.js
+
+# Design and docs
+design/
+*.md
+!README.md
+
+# Infrastructure
+infra/
+
+# TypeScript config
+tsconfig.json
+
+# Dev environment
+.vscode/
+.devcontainer/
+.env
+.env.*
+local.settings.json
+
+# Build artifacts (we deploy dist/)
+# src/

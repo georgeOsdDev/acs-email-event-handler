@@ -1,0 +1,19 @@
+# Design docs (kept out of repo)
+/design/
+
+# Node
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+yarn-error.log*
+
+# Azure Functions local settings
+local.settings.json
+
+# Env files
+.env
+.env.*
+
+# Deployment parameters (real values)
+infra/parameters.json

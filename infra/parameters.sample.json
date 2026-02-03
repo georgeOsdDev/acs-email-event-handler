@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "functionAppName": { "value": "<function-app-name>" },
+    "storageAccountName": { "value": "<storage-account-name>" },
+    "appInsightsName": { "value": "<app-insights-name>" },
+    "acsConnectionString": { "value": "<acs-connection-string>" },
+    "acsEmailFrom": { "value": "<verified-sender@example.com>" },
+    "acsSuppressionListLevel": { "value": "domain" },
+    "acsSubscriptionId": { "value": "<subscription-id>" },
+    "acsResourceGroup": { "value": "<acs-resource-group>" },
+    "acsEmailServiceName": { "value": "<acs-email-service-name>" },
+    "acsDomainResourceName": { "value": "<acs-domain-resource-name>" },
+    "acsSuppressionListName": { "value": "<acs-suppression-list-name>" }
+  }
+}
