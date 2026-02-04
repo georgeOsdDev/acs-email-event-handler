@@ -11,6 +11,9 @@
     "ACS_RESOURCE_GROUP": "<acs-resource-group>",
     "ACS_EMAIL_SERVICE_NAME": "<acs-email-service-name>",
     "ACS_DOMAIN_RESOURCE_NAME": "<acs-domain-resource-name>",
-    "ACS_SUPPRESSION_LIST_NAME": "<acs-suppression-list-name>"
+    "ACS_SUPPRESSION_LIST_NAME": "<acs-suppression-list-name>",
+    "AzureWebJobs.sendTestEmail.Disabled": "true",
+    "AzureWebJobs.getSuppression.Disabled": "true",
+    "AzureWebJobs.updateSuppression.Disabled": "true"
   }
 }

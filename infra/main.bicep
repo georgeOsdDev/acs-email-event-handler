@@ -110,6 +110,18 @@ resource functionApp 'Microsoft.Web/sites@2022-03-01' = {
           name: 'ACS_SUPPRESSION_LIST_NAME'
           value: acsSuppressionListName
         }
+        {
+          name: 'AzureWebJobs.sendTestEmail.Disabled'
+          value: 'true'
+        }
+        {
+          name: 'AzureWebJobs.getSuppression.Disabled'
+          value: 'true'
+        }
+        {
+          name: 'AzureWebJobs.updateSuppression.Disabled'
+          value: 'true'
+        }
       ]
     }
     httpsOnly: true
