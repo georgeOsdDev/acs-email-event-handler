@@ -14,7 +14,7 @@
     "@azure/functions": "^4.5.0",
     "@azure/communication-email": "^1.1.0",
     "@azure/arm-communication": "^4.2.0",
-    "@azure/identity": "^4.0.1"
+    "@azure/identity": "^4.13.1"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
